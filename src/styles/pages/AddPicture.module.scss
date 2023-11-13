@@ -1,0 +1,19 @@
+.inputfile[type="file"] {
+    display: none;
+}
+
+.uploadtext {
+    display: inline-block;
+    padding: 30px 20px;
+    background-color: #777CF8;
+    cursor: pointer;
+    color: white;
+   
+    &:hover {
+        background-color: blue;
+        box-shadow: -2px 0px 7px 13px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -2px 0px 7px 13px rgba(39, 132, 245, 0.75);
+        -moz-box-shadow: -2px 0px 7px 13px rgba(39, 132, 245, 0.75);
+    
+    }
+}

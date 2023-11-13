@@ -1,0 +1,21 @@
+
+
+.container {
+    margin: 20px auto;
+    columns: 6;
+    column-gap: 20px;
+}
+
+.box {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 35px;
+    break-inside: avoid;
+
+}
+
+.img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+

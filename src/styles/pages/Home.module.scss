@@ -1,0 +1,227 @@
+
+// ------------------header--------------------
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    .logo {
+        img {}
+
+        h5 {
+            color: #e60023;
+        }
+    }
+    .menu {
+        .login {
+            color: white;
+            background-color:#e60023;
+            border-radius: 30px;
+            cursor: pointer;
+            &:hover{
+                background-color: #8A2332;
+             }   
+        }
+
+        .signup {
+            background-color: #efefef;
+            border-radius: 30px;
+            cursor: pointer;
+            &:hover{
+                background-color: #A0A29F;
+             }   
+        }
+    }
+}
+
+//------------------------------dinner------------------------------
+
+
+.dinner{
+    background-color:#fffd92 ;
+    padding: 200px;
+    .left{ 
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .image1{
+           
+            z-index: 500;
+        }
+        .image2{
+            position: absolute;
+            top:10%;
+            left: 5%;
+            z-index: 400;
+        }
+        .image3{
+            position: absolute;
+            top:-20%;
+            left: 60%;
+            z-index: 400;
+        }
+        .image4{
+            position: absolute;
+            top:60%;
+            left: 60%;
+            z-index: 400;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 60px;
+            color:#c31952 ;
+        }
+        p{
+            text-align: center;
+            font-size: 24px;
+            width: 65%;
+        }
+        button{
+            background-color:#c31952 ;
+            padding: 10px 25px;
+            border-radius: 40px;
+            border: 0;
+            color:#fffd92 ;
+         &:hover{
+            background-color: #8A2332;
+         }   
+        }
+    }
+}
+//--------------------save-ideas-----------------------------------
+.saveideas{
+    background-color:#dafff6 ;
+    padding: 250px;
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 60px;
+            color:#006b6c ;
+        }
+        p{
+            text-align: center;
+            color:#006b6c;
+            font-size: 24px;
+            width: 60%;
+        }
+        button{
+            background-color:#006b6c ;
+            padding: 10px 25px;
+            border-radius: 40px;
+            border: 0;
+            color:#dafff6 ;
+            &:hover{
+                background-color: #44573E;
+             }   
+        }
+    }
+    .right{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .image1{
+            position: absolute;
+            top:90%;
+            left:10%;
+        }
+        .image2{
+            position: absolute;
+            top:-100%;
+            left:10%;
+        }
+        .image3{
+            position: absolute;  
+            left:70%;
+        }
+    }
+}
+// ------------------see-it---------------------------------
+.seeit{
+    background-color: #ffe2eb;
+    .left{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .image1{
+          
+        }
+        .image2{
+            position: absolute;
+            top:30%;
+            left:10%;
+        }
+        .image3{
+            position: absolute;  
+            left:5%;
+            top:70%;
+        }
+    }
+    .right{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+           
+            font-size: 60px;
+            color:#c32f00 ;
+            width: 50%;
+        }
+        p{
+            font-size: 24px;
+            color:#c32f00 ;
+            width: 55%;
+        }
+        button{
+            background-color:#c32f00;
+            padding: 10px 25px;
+            border-radius: 40px;
+            border: 0;
+            color:#ffe2eb ;
+            &:hover{
+                background-color: #8A2332;
+             }   
+        }
+    }
+}
+// -----------------------------foods------------------------------
+
+.foods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../public/assets/images/foods.webp');
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    h1{
+        text-align: center;
+        width: 10%;
+        color: white;
+        font-size: 80px;
+    }
+}
+
+// --------------------------footer---------------------------------
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    p{
+        font-size: 12px;
+        margin: 0 15px;
+        font-weight: 700;
+    }
+}
